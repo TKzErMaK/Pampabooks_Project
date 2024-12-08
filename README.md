@@ -34,7 +34,7 @@
 ### **Passos**
 
 1. **Clone o repositório:**
-   git clone https://github.com/TKzErMaK/pampabooks.git
+   git clone https://github.com/TKzErMaK/Pampabooks_Project
    cd pampabooks
 
 2. **Instale as dependências:**
