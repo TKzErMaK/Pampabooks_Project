@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos</title>
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <form id="orderForm">
+    <input type="text" id="userId" placeholder="ID do Usuário" required>
+    <input type="text" id="livroId" placeholder="ID do Livro" required>
+    <input type="number" id="quantidade" placeholder="Quantidade" required>
+    <input type="number" id="total" placeholder="Total" required>
+    <button type="submit">Criar Pedido</button>
+  </form>
+  <script src="requests.js"></script>
+</body>
+</html>

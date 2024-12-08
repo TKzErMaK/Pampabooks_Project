@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciamento de Usuários</title>
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <!-- Formulário de Login -->
+  <form id="loginForm" style="display: block;">
+    <h2>Login</h2>
+    <div id="userMessage" style="display: none;"></div>
+    <input type="email" id="loginEmail" placeholder="Email" required>
+    <input type="password" id="loginPassword" placeholder="Senha" required>
+    <button type="submit">Entrar</button>
+    <p>Não tem uma conta? <button type="button" id="showRegister">Registre-se</button></p>
+  </form>
+
+  <!-- Formulário de Cadastro -->
+  <form id="registerForm" style="display: none;">
+    <h2>Cadastro</h2>
+    <div id="userMessage" style="display: none;"></div>
+    <input type="text" id="registerName" placeholder="Nome" required>
+    <input type="email" id="registerEmail" placeholder="Email" required>
+    <input type="password" id="registerPassword" placeholder="Senha" required>
+    <button type="submit">Cadastrar</button>
+    <p>Já tem uma conta? <button type="button" id="showLogin">Faça login</button></p>
+  </form>
+
+  <script src="users.js"></script>
+</body>
+</html>

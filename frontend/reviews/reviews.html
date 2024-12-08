@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliações</title>
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <form id="reviewForm">
+    <input type="text" id="livroId" placeholder="ID do Livro" required>
+    <input type="text" id="userId" placeholder="ID do Usuário" required>
+    <textarea id="comentario" placeholder="Comentário" required></textarea>
+    <input type="number" id="nota" placeholder="Nota" required min="1" max="5">
+    <button type="submit">Enviar Avaliação</button>
+  </form>
+  <script src="reviews.js"></script>
+</body>
+</html>
